@@ -83,3 +83,9 @@ body {
 
 
 			@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+			.dwnt {
+				font-size: 25px;
+				color: #fff;
+				font-family: 'Righteous', cursive;
+			}
