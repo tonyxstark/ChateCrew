@@ -80,4 +80,43 @@ footer.footer .copyright {
 }
 
 
+@keyframes circle {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(360deg); }
+}
+
+@keyframes inner-circle {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(-360deg); }
+}
+
+.main1 {
+    width:100px;
+    height:100px;
+    margin: 20px auto 0;
+    font-size:100px;
+    line-height:1;
+    animation: circle 5s linear infinite;
+    transform-origin:50% 200px;
+}
+
+.main2 {
+    animation: inner-circle 5s linear infinite;
+
+}
+
+.av1{
+    width:100px;
+    height:100px;
+    margin: 20px auto 0;
+    font-size:100px;
+    line-height:1;
+    animation: circle 5s linear infinite;
+    transform-origin:60% 190px;
+}
+
+.av2 {
+    animation: inner-circle 5s linear infinite;
+
+
 
